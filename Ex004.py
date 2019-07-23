@@ -1,0 +1,8 @@
+algo = input('Digite algum valor na tela: ')
+print(type(algo))
+print('Possui somente letras? {}!'.format(algo.isalpha()))
+print('Possui somente numeros? {}!'.format(algo.isnumeric()))
+print('Possui letras e/ou numeros? {}!'.format(algo.isalnum()))
+print('Todas as letras estão em maiusculas? {}!'.format(algo.isupper()))
+print('Todas as letras estão em minúculas? {}!'.format(algo.islower()))
+print('A primeira letra está em maiúsculo? {}!'.format(algo.istitle()))
